@@ -68,6 +68,8 @@ PODS:
     - Flutter
   - image_picker_ios (0.0.1):
     - Flutter
+  - cuu_protocol (0.0.1):
+    - Flutter
   - integration_test (0.0.1):
     - Flutter
   - media_kit_libs_ios_audio (1.0.4):
