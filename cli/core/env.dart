@@ -8,7 +8,7 @@ enum BuildChannel {
     final channel = Platform.environment[name]!;
     if (channel == "stable") {
       return BuildChannel.stable;
-    } else if (channel == "nightly") {
+    } else if (channel == "staging") {
       return BuildChannel.nightly;
     } else {
       throw Exception("Invalid channel: $channel");
